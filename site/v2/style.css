@@ -9,21 +9,26 @@
 }
 
 body {
-  background-color: #211f1f;
+  background-color:  rgba(212, 218, 213, 0.72);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
+  min-height:100%;
 
 }
 
 /* HEADER */
 header{
 	background-color: #257D25;
-	position: relative;
+	position: fixed;
 	width: 100%;
-	height: 74px;
+	max-height: 74px;
+	height:100%;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
 }
 
 header .logo{
@@ -87,6 +92,7 @@ header .search input{
 
 /* MIDDLE */
 #stats{
+	margin-top:74px;
 	width:90%;
 	padding-top:3%;
 	margin-left:5%;
@@ -102,20 +108,18 @@ header .search input{
 	
 }
 
-.bootsBrands header, .bootsBrands footer, .topViewsPlayers header{
+.bootsBrands p, .topViewsPlayers p{
 	background-color: transparent;
 	color: #257D25;
 	height: auto;
 	margin-left:0;
 	margin-right:0;
 	font-family: 'Titillium Web', sans-serif;
-}
-
-.bootsBrands header p, .topViewsPlayers header p{
 	font-weight: bold;
 	font-size: 26px;
 	text-transform: uppercase;
 	border-bottom: 3px solid #257D25;
+	margin-bottom: 3px;
 }
 
 .bootsBrands article{
@@ -132,8 +136,28 @@ header .search input{
 	list-style-type: none;
 }
 
+.bootsBrands ul li{
+		
+	height: 100%;
+	list-style-type: none;
+}
+
+
 .bootsBrands ul li img{
+	text-align:center;
 	float:left;
+	width:140px;
+	height:140px;
+}
+
+section #brands{
+	margin-bottom: 4px;
+	
+}
+
+section #brands ul li img, section #bootModels ul li img{
+	padding: 3px;
+	
 }
 
 .topViewsPlayers {
@@ -147,4 +171,3 @@ header .search input{
 	list-style-type: none;
 }
 /* FOOTER */
-
