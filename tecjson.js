@@ -1,7 +1,7 @@
 {
   "friends":[
         {"name":"Dilma Rousseff","hobby":"Drive Brazil downwards","age":"67","phone":"171 171 13","address":"Brasilia, Distrito Federal, Brazil"},
-        {"name":"Ronaldinho Gaucho","hobby":"Party hard. And sometimes show off his football skills","age":"34","phone":"10 49 80 11","address":"Santiago de Querétaro, Querétaro, Spain"},  
+        {"name":"Ronaldinho Gaucho","hobby":"Party hard. And sometimes show off his football skills","age":"34","phone":"10 49 80 11","address":"Santiago de Querétaro, Querétaro, Mexico"},  
         {"name":"Barack Obama","hobby":"Make fun of Vladimir Putin","age":"53","phone":"No one knows","address": "Washington, District of Columbia, USA"},  
         {"name":"Lionel Messi","hobby":"Score goals against every goalkeeper he plays against","age":"28","phone":"10 10 10 10","address":"Barcelona, Catalunya, Spain"}, 
         {"name":"Linus Torvalds","hobby":"Compile his linux kernel every single day","age":"45","phone":"01 01 01 01","address":"Portland, Oregon, USA"},
