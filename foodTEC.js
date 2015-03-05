@@ -31,7 +31,7 @@
               "lon": "-103.455709"
             },
             {
-              "name":"Yum-Yum Snack",
+              "name":"Yum-Yum Snack - Cyber Plaza",
               "lat": "20.735028",
               "lon": "-103.455741"
             },
