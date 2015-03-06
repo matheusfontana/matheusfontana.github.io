@@ -49,6 +49,11 @@
               "name":"La Selva",
               "lat": "20.735135",
               "lon": "-103.455707"
-            },      
+            },    
+            {
+              "name":"Yum-Yum Snack - Explanada Arquitectura",
+              "lat": "20.734481",
+              "lon": "-103.457693"
+            }              
   ]
 }
