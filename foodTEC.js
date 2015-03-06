@@ -16,7 +16,7 @@
               "lon": "-103.4551252"
             },
             {
-              "name":"Juvie Jus",
+              "name":"Juvie Jus - Explanada Arquitectura",
               "lat": "20.734642",
               "lon": "-103.457674"
             },
@@ -26,7 +26,7 @@
               "lon": "-103.4561874"
             },
             {
-              "name":"Guich",
+              "name":"Guich - Cyber Plaza",
               "lat": "20.734857",
               "lon": "-103.455709"
             },
@@ -35,5 +35,15 @@
               "lat": "20.735028",
               "lon": "-103.455741"
             },
+            {
+              "name":"Guich - Prepa",
+              "lat": "20.734493",
+              "lon": "-103.452797"
+            },
+            {
+              "name":"Juvie Jus - Prepa",
+              "lat": "20.734669",
+              "lon": "-103.452762"
+            },            
   ]
 }
