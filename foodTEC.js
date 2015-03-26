@@ -27,7 +27,6 @@
               "lon": "-103.457674",
               "img": "https://irs2.4sqi.net/img/general/width960/4052139_N0sFIJtnK_jjzjY4_dz_rCkBXA638IuqJsdjA3n-jkY.jpg",
               "sell": "Healthy food"
-              
             },
             {
               "name":"Oxxo",
