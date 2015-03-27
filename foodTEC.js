@@ -44,7 +44,7 @@
               "sell": "Meals and snacks"
             },
             {
-              "name":"Guich - Cyber Plaza",
+              "name":"Guich Cyber Plaza",
               "lat": "20.734857",
               "lon": "-103.455709",
               "img" "https://irs1.4sqi.net/img/general/width960/529797_Im0_XUu4rWj6jUK_aPno0H7JjOgbxuFNQYff9sONCjo.jpg",
