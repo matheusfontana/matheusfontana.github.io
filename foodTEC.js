@@ -49,8 +49,6 @@
               "lon": "-103.455709",
               "img" "https://irs1.4sqi.net/img/general/width960/529797_Im0_XUu4rWj6jUK_aPno0H7JjOgbxuFNQYff9sONCjo.jpg",
               "sell": "Meals and snacks"
-            },
-            
-            
+            }
   ]
 }
