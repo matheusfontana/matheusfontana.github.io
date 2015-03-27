@@ -44,7 +44,7 @@
               "sell": "Meals and snacks"
             },
             {
-              "name":"Yum-Yum Snack Cyber Plaza",
+              "name":"Yum Yum Cyber Plaza",
               "lat": "20.735028",
               "lon": "-103.455741",
               "img": "https://irs0.4sqi.net/img/general/600x600/17458266_eRreB9TIm_fRYokifFIJikyYy0VOAkoP7cnlf4OCgiA.jpg",
