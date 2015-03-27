@@ -34,7 +34,7 @@
               "lat": "20.7341744",
               "lon": "-103.4561874",
               "img": "https://irs0.4sqi.net/img/general/width960/43799951_j7d3hui0Dm_3XGbePkMoiSqDA_WJPA79c4F-NT3w_E0.jpg",
-              "sell": "Food, snacks, hygiene and cleaning products "
+              "sell": "Food, snacks, hygiene and cleaning products"
             },
             {
               "name":"Guich - Cyber Plaza",
