@@ -36,6 +36,13 @@
               "img": "https://irs0.4sqi.net/img/general/width960/43799951_j7d3hui0Dm_3XGbePkMoiSqDA_WJPA79c4F-NT3w_E0.jpg",
               "sell": "Food, snacks, hygiene and cleaning products"
             },
+            {
+              "name":"La Selva",
+              "lat": "20.735135",
+              "lon": "-103.455707",
+              "img": "https://irs3.4sqi.net/img/general/width960/cbf2GQ3qEX0H0xfSDYgruHl1Y-DadcKuo0Pr2QrVrtw.jpg",
+              "sell": "Meals and snacks"
+            },
             
             
   ]
