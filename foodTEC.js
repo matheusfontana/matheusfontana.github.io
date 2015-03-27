@@ -35,6 +35,19 @@
               "lon": "-103.4561874",
               "img": "https://irs0.4sqi.net/img/general/width960/43799951_j7d3hui0Dm_3XGbePkMoiSqDA_WJPA79c4F-NT3w_E0.jpg",
               "sell": "Food, snacks, hygiene and cleaning products "
+            },{
+              "name":"Guich - Cyber Plaza",
+              "lat": "20.734857",
+              "lon": "-103.455709",
+              "img" "https://irs1.4sqi.net/img/general/width960/529797_Im0_XUu4rWj6jUK_aPno0H7JjOgbxuFNQYff9sONCjo.jpg",
+              "sell": "Meals and snacks"
+            },
+            {
+              "name":"Yum-Yum Snack - Cyber Plaza",
+              "lat": "20.735028",
+              "lon": "-103.455741",
+              "img": "https://irs0.4sqi.net/img/general/600x600/17458266_eRreB9TIm_fRYokifFIJikyYy0VOAkoP7cnlf4OCgiA.jpg",
+              "sell": "Meals and snacks"
             },
             
   ]
