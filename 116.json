@@ -1,0 +1,31 @@
+{
+  "hotspots": [
+    {
+      "km": 264.5,
+      "heading": "NS",
+      "start": {
+        "latitude": "-29.9423764",
+        "longitude": "-51.1770775"
+      },
+      "end": {
+        "latitude": "-29.9467401",
+        "longitude": "-51.1768727"
+      },
+      "length": 500,
+      "severity": 2,
+      "city": "CANOAS/RS",
+      "hazards":[{
+        "type": "Colisão traseira",
+        "incidence": 75,
+      },
+      {
+        "type": "Capotamento",
+        "incidence": 5,
+      },
+      {
+        "type": "Colisão lateral",
+        "incidence": 25,
+      }]
+    },
+  ]
+}
