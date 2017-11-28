@@ -16,16 +16,16 @@
       "city": "CANOAS/RS",
       "hazards":[{
         "type": "Colisão traseira",
-        "incidence": 75,
+        "incidence": 75
       },
       {
         "type": "Capotamento",
-        "incidence": 5,
+        "incidence": 5
       },
       {
         "type": "Colisão lateral",
-        "incidence": 25,
+        "incidence": 25
       }]
-    },
+    }
   ]
 }
