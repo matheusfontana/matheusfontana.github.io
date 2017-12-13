@@ -26,6 +26,33 @@
         "type": "Colisão lateral",
         "incidence": 25
       }]
+    },
+    {
+      "km": 264.5,
+      "heading": "SN",
+      "start": {
+        "latitude": "-29.9383874",
+        "longitude": "-51.1771234"
+      },
+      "end": {
+        "latitude": "-29.9311819",
+        "longitude": "-51.1775125"
+      },
+      "length": 800,
+      "severity": 3,
+      "city": "CANOAS/RS",
+      "hazards":[{
+        "type": "Colisão traseira",
+        "incidence": 75
+      },
+      {
+        "type": "Capotamento",
+        "incidence": 5
+      },
+      {
+        "type": "Colisão lateral",
+        "incidence": 25
+      }]
     }
   ]
 }
