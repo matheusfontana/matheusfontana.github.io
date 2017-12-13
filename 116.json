@@ -28,17 +28,17 @@
       }]
     },
     {
-      "km": 264.5,
-      "heading": "SN",
+      "km": 261.5,
+      "heading": "NS",
       "start": {
-        "latitude": "-29.9383874",
-        "longitude": "-51.1771234"
+        "latitude": "-29.9138466",
+        "longitude": "-51.1776156"
       },
       "end": {
-        "latitude": "-29.9311819",
-        "longitude": "-51.1775125"
+        "latitude": "-29.9196615",
+        "longitude": "-51.1781319"
       },
-      "length": 800,
+      "length": 550,
       "severity": 3,
       "city": "CANOAS/RS",
       "hazards":[{
