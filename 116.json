@@ -1,6 +1,6 @@
 {
   "hotspots": [
-    /*{
+    {
       "km": 264.5,
       "heading": "NS",
       "start": {
@@ -26,7 +26,7 @@
         "type": "Colisão lateral",
         "incidence": 25
       }]
-    },*/
+    },
     {
       "km": 261.5,
       "heading": "NS",
