@@ -1,0 +1,18 @@
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active em versões anteriores a 2.1.8 */ {
+    opacity: 0;
+  }
+
+  a:hover{
+      cursor: pointer;
+  }
+
+  body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }

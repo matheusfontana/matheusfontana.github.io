@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Matheus Stein Fontana</title>
+  <title>Matheus Stein Fontana - Topics of Interest & To-do courses</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://br.vuejs.org/js/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
 </head>
 <body>
-
 <div class="container">
   <div id="app">
-  <h3 class="page-header">HOBBIES</h3>
-  <ul>
-    <li v-for="hobby in hobbies">
-      {{ hobby.name }}
-    </li>
-  </ul>
+    <div class="row">
+      <h2 class="page-header">TOPICS OF INTEREST</h2>
+      <ul> 
+        <li v-for="topic in orderBy(topics, '')">
+          {{ topic.name }}
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <h2 class="page-header">TO-DO COURSES</h2>
+      <div class="container" v-for="platform in eLearningPlatforms">
+        <h3>Platform: {{platform.name}}</h3>
+        <ul v-for="subject in platform.subjects">
+          <li><h4>{{subject.name}} - <a v-on:click="subject.show = !subject.show" v-bind:key="subject.show">{{ subject.show ? 'Hide' : 'Show' }}</a></h4></li>
+          <transition name="fade">
+              <div v-if="subject.show" class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th class="col-xs-10">Name</th>
+                      <th class="col-xs-1">Time</th>
+                      <th class="col-xs-1">Paid?</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="course in subject.courses">
+                      <td class="col-xs-10"><a :href="course.link">{{course.name}}</a></td>
+                      <td class="col-xs-1">{{course.time}}</td>
+                      <td class="col-xs-1">{{course.paid ? 'Yes' : 'No'}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </transition>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
-<script type="text/javascript">
-new Vue({
-  el: '#app',
-  data: {
-    hobbies: [
-      { name: 'Coding' },
-      { name: 'Football' },
-      { name: 'Music' },
-      { name: 'Aviation' },
-    ]
-  }
-})  
-</script>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
